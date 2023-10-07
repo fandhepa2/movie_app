@@ -185,26 +185,29 @@ class DetailMovie extends StatelessWidget {
                 ),
                 SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
-                  child: Row(
-                    children: [
-                      CastWidget(),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      CastWidget(),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      CastWidget(),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      CastWidget(),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      CastWidget(),
-                    ],
+                  child: Container(
+                    margin: EdgeInsets.only(bottom: 70),
+                    child: Row(
+                      children: [
+                        CastWidget(),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        CastWidget(),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        CastWidget(),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        CastWidget(),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        CastWidget(),
+                      ],
+                    ),
                   ),
                 )
               ],
