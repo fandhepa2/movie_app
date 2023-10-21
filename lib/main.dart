@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:movie_app/detail_movie.dart';
 import 'package:movie_app/landing_page.dart';
 import 'package:movie_app/onboard.dart';
 import 'package:movie_app/widgets/movie_widgets.dart';
 
 void main() {
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+
   runApp(const MyApp());
+  FlutterNativeSplash.remove();
 }
 
 class MyApp extends StatelessWidget {

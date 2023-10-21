@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:movie_app/themes/themes.dart';
 import 'package:movie_app/widgets/cast_widgets.dart';
 import 'package:movie_app/widgets/movie_widgets.dart';
