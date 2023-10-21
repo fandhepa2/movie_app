@@ -39,6 +39,7 @@ dependencies:
   carousel_slider: ^4.2.1
   dio: ^4.0.6
   provider: ^6.0.4
+  dartz: ^0.10.1
 
   #splash screen
   flutter_native_splash: ^2.2.14
